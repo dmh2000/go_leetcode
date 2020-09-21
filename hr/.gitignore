@@ -1,0 +1,5 @@
+*.opendb
+.vs
+x64
+*.user
+bin

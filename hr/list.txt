@@ -1,0 +1,76 @@
+DATA STRUCTURES
+
+Array
+x   <array> fixed size
+x   <vector> dynamic
+linked list  (linux)
+x   <forward_list> (singly linked)
+x   <list> (doubly linked)
+stack (array vs linked list)
+x   LIFO
+x   <stack>
+queue (circular array vs linked list)
+x   FIFO
+x   <queue>
+deque (use C++)
+    double ended queue. not contiguous
+    <deque>
+set
+    <set>           (rb tree)
+    <unordered_set> (hash)
+map
+    <map>           (rb tree)
+    <unordered_map> (hash)
+binary tree 
+    nodes vs array
+graph 
+    adjacency list vs links
+hashing 
+    Fowler/Noll/Vo FNV hash
+trie
+
+SORT
+x insertion sort
+    simplest, O(N) when input is sorted. O(N^2) worst case
+x quicksort
+    fastest, not stable, in place, O(NlogN) unless input is sorted, then O(N^2)
+    randomize first to avoid worst case
+x mergesort 
+    stable, worst case O(NlogN), requires N2 extra storage
+counting sort
+    key-indexed, non-comparison, O(n+k) where k is radix and n is input length
+LSD string sort
+    for strings of same length, use key-index sort starting at least significant character 
+    up to most significant. uses N+R extra space O(NR)
+
+SEARCH
+x linear
+    O(N)
+binary
+    O(logN)
+nearly balanced binary tree 
+    red-black quicker insert, less balanced f(2)
+    AVL slower insert, more balanced f(1.5)
+    O(logN) search
+hashmap 
+    chaining : easiest, requires memory management
+    open addressing : less easy, has fixed capacity
+    O(1)
+trie
+substring search
+    knuth-morris-pratt
+    boyer-moore
+    rabin-karp
+
+GRAPH
+DFS
+BFS
+shortest path (Dijkstra,A*)
+Connected Components
+Reachability
+Topological Sort
+Spanning Tree (Kruskal)
+
+COMPRESSIONS
+huffman
+LZW
